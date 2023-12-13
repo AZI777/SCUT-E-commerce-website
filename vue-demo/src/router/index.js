@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import {createRouter, createWebHistory} from 'vue-router';
 // 导入刚才编写的组件
 import AppIndex from '@/components/home/AppIndex.vue';
 import Login from '@/components/Login.vue';
@@ -18,7 +18,7 @@ const routes = [
                 path: '/index',
                 name: 'AppIndex',
                 component: AppIndex,
-                redirect:'/frontend',
+                redirect:'/login',
                 meta: {
                     requireAuth: true
                 }
@@ -58,13 +58,14 @@ const routes = [
     {
         path: '/',
         name: 'root',
-        redirect: '/login',
+        redirect: '/index',
         // component: Login,
     }
 ];
 
 const router = createRouter({
     history: createWebHistory(),
+    // history: createWebHashHistory(),
     routes,
 });
 

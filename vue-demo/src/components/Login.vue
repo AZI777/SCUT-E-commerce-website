@@ -47,9 +47,10 @@ export default {
             if (successResponse.data.code === 200) {
               store.commit('login', loginForm.value);
               const path = router.currentRoute.value.query.redirect;
-              router.replace({ path: path === '/' || path === undefined ? '/index' : path });
-            }
-            else {
+              console.log(path);
+              // router.replace({ path: path === '/' || path === undefined ? '/index' : path });
+              router.replace({path: path === '/' || path === undefined ? '/frontend' : path});
+            } else {
               alert('账号或密码错误！');
             }
           })
@@ -67,9 +68,8 @@ export default {
             if (successResponse.data.code === 200) {
               store.commit('login', loginForm.value);
               const path = router.currentRoute.value.query.redirect;
-              router.replace({ path: path === '/' || path === undefined ? '/index' : path });
-            }
-            else {
+              router.replace({path: path === '/' || path === undefined ? '/frontend' : path});
+            } else {
               alert('账号或密码错误！');
             }
           })

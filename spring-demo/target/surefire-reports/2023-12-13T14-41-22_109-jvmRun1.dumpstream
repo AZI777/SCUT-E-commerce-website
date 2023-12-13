@@ -1,0 +1,475 @@
+# Created at 2023-12-13T14:41:22.571
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:386)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created at 2023-12-13T14:41:23.078
+Unexpected IOException: I,1,java.class.path,C:\005CUsers\005CDELL\005CDesktop\005C\7F51\7EDC\5E94\7528\5F00\53D1\8BFE\7A0B\8BBE\8BA1 - \526F\672C\005Cspring-demo\005Ctarget\005Ctest-classes;C:\005CUsers\005CDELL\005CDesktop\005C\7F51\7EDC\5E94\7528\5F00\53D1\8BFE\7A0B\8BBE\8BA1 - \526F\672C\005Cspring-demo\005Ctarget\005Cclasses;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-web\005C2.1.1.RELEASE\005Cspring-boot-starter-web-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter\005C2.1.1.RELEASE\005Cspring-boot-starter-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-logging\005C2.1.1.RELEASE\005Cspring-boot-starter-logging-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-classic\005C1.2.3\005Clogback-classic-1.2.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-core\005C1.2.3\005Clogback-core-1.2.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-to-slf4j\005C2.11.1\005Clog4j-to-slf4j-2.11.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.11.1\005Clog4j-api-2.11.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cslf4j\005Cjul-to-slf4j\005C1.7.25\005Cjul-to-slf4j-1.7.25.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.23\005Csnakeyaml-1.23.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-json\005C2.1.1.RELEASE\005Cspring-boot-starter-json-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-databind\005C2.9.7\005Cjackson-databind-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-annotations\005C2.9.0\005Cjackson-annotations-2.9.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jdk8\005C2.9.7\005Cjackson-datatype-jdk8-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jsr310\005C2.9.7\005Cjackson-datatype-jsr310-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cmodule\005Cjackson-module-parameter-names\005C2.9.7\005Cjackson-module-parameter-names-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chibernate\005Cvalidator\005Chibernate-validator\005C6.0.13.Final\005Chibernate-validator-6.0.13.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cvalidation\005Cvalidation-api\005C2.0.1.Final\005Cvalidation-api-2.0.1.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjboss\005Clogging\005Cjboss-logging\005C3.3.2.Final\005Cjboss-logging-3.3.2.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cclassmate\005C1.4.0\005Cclassmate-1.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-web\005C5.1.3.RELEASE\005Cspring-web-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C5.1.3.RELEASE\005Cspring-beans-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-webmvc\005C5.1.3.RELEASE\005Cspring-webmvc-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C5.1.3.RELEASE\005Cspring-aop-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C5.1.3.RELEASE\005Cspring-context-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C5.1.3.RELEASE\005Cspring-expression-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-tomcat\005C2.1.1.RELEASE\005Cspring-boot-starter-tomcat-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cannotation\005Cjavax.annotation-api\005C1.3.2\005Cjavax.annotation-api-1.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-core\005C9.0.13\005Ctomcat-embed-core-9.0.13.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-el\005C9.0.13\005Ctomcat-embed-el-9.0.13.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-websocket\005C9.0.13\005Ctomcat-embed-websocket-9.0.13.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-devtools\005C2.1.1.RELEASE\005Cspring-boot-devtools-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot\005C2.1.1.RELEASE\005Cspring-boot-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-autoconfigure\005C2.1.1.RELEASE\005Cspring-boot-autoconfigure-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-data-jpa\005C2.1.1.RELEASE\005Cspring-boot-starter-data-jpa-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-aop\005C2.1.1.RELEASE\005Cspring-boot-starter-aop-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Caspectj\005Caspectjweaver\005C1.9.2\005Caspectjweaver-1.9.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-jdbc\005C2.1.1.RELEASE\005Cspring-boot-starter-jdbc-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Czaxxer\005CHikariCP\005C3.2.0\005CHikariCP-3.2.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jdbc\005C5.1.3.RELEASE\005Cspring-jdbc-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Ctransaction\005Cjavax.transaction-api\005C1.3\005Cjavax.transaction-api-1.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cxml\005Cbind\005Cjaxb-api\005C2.3.1\005Cjaxb-api-2.3.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cactivation\005Cjavax.activation-api\005C1.2.0\005Cjavax.activation-api-1.2.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chibernate\005Chibernate-core\005C5.3.7.Final\005Chibernate-core-5.3.7.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cpersistence\005Cjavax.persistence-api\005C2.2\005Cjavax.persistence-api-2.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjavassist\005Cjavassist\005C3.23.1-GA\005Cjavassist-3.23.1-GA.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.9.5\005Cbyte-buddy-1.9.5.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cantlr\005Cantlr\005C2.7.7\005Cantlr-2.7.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjboss\005Cjandex\005C2.0.5.Final\005Cjandex-2.0.5.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cdom4j\005Cdom4j\005C2.1.1\005Cdom4j-2.1.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chibernate\005Ccommon\005Chibernate-commons-annotations\005C5.0.4.Final\005Chibernate-commons-annotations-5.0.4.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-jpa\005C2.1.3.RELEASE\005Cspring-data-jpa-2.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-commons\005C2.1.3.RELEASE\005Cspring-data-commons-2.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-orm\005C5.1.3.RELEASE\005Cspring-orm-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-tx\005C5.1.3.RELEASE\005Cspring-tx-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.25\005Cslf4j-api-1.7.25.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aspects\005C5.1.3.RELEASE\005Cspring-aspects-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-data-redis\005C2.1.1.RELEASE\005Cspring-boot-starter-data-redis-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-redis\005C2.1.3.RELEASE\005Cspring-data-redis-2.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-keyvalue\005C2.1.3.RELEASE\005Cspring-data-keyvalue-2.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-oxm\005C5.1.3.RELEASE\005Cspring-oxm-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context-support\005C5.1.3.RELEASE\005Cspring-context-support-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Clettuce\005Clettuce-core\005C5.1.3.RELEASE\005Clettuce-core-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cprojectreactor\005Creactor-core\005C3.2.3.RELEASE\005Creactor-core-3.2.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Creactivestreams\005Creactive-streams\005C1.0.2\005Creactive-streams-1.0.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-common\005C4.1.31.Final\005Cnetty-common-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport\005C4.1.31.Final\005Cnetty-transport-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-buffer\005C4.1.31.Final\005Cnetty-buffer-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-resolver\005C4.1.31.Final\005Cnetty-resolver-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-handler\005C4.1.31.Final\005Cnetty-handler-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-codec\005C4.1.31.Final\005Cnetty-codec-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-test\005C2.1.1.RELEASE\005Cspring-boot-starter-test-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test\005C2.1.1.RELEASE\005Cspring-boot-test-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test-autoconfigure\005C2.1.1.RELEASE\005Cspring-boot-test-autoconfigure-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cjayway\005Cjsonpath\005Cjson-path\005C2.4.0\005Cjson-path-2.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Cminidev\005Cjson-smart\005C2.3\005Cjson-smart-2.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Cminidev\005Caccessors-smart\005C1.2\005Caccessors-smart-1.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C5.0.4\005Casm-5.0.4.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cassertj\005Cassertj-core\005C3.11.1\005Cassertj-core-3.11.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C2.23.4\005Cmockito-core-2.23.4.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy-agent\005C1.9.5\005Cbyte-buddy-agent-1.9.5.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C2.6\005Cobjenesis-2.6.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-library\005C1.3\005Chamcrest-library-1.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cskyscreamer\005Cjsonassert\005C1.5.0\005Cjsonassert-1.5.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cvaadin\005Cexternal\005Cgoogle\005Candroid-json\005C0.0.20131108.vaadin1\005Candroid-json-0.0.20131108.vaadin1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C5.1.3.RELEASE\005Cspring-core-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jcl\005C5.1.3.RELEASE\005Cspring-jcl-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-test\005C5.1.3.RELEASE\005Cspring-test-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cxmlunit\005Cxmlunit-core\005C2.6.2\005Cxmlunit-core-2.6.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-thymeleaf\005C2.1.1.RELEASE\005Cspring-boot-starter-thymeleaf-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cthymeleaf\005Cthymeleaf-spring5\005C3.0.11.RELEASE\005Cthymeleaf-spring5-3.0.11.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cthymeleaf\005Cthymeleaf\005C3.0.11.RELEASE\005Cthymeleaf-3.0.11.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cattoparser\005Cattoparser\005C2.0.5.RELEASE\005Cattoparser-2.0.5.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cunbescape\005Cunbescape\005C1.1.6.RELEASE\005Cunbescape-1.1.6.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cthymeleaf\005Cextras\005Cthymeleaf-extras-java8time\005C3.0.2.RELEASE\005Cthymeleaf-extras-java8time-3.0.2.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-data-elasticsearch\005C2.1.1.RELEASE\005Cspring-boot-starter-data-elasticsearch-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-elasticsearch\005C3.1.3.RELEASE\005Cspring-data-elasticsearch-3.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjoda-time\005Cjoda-time\005C2.10.1\005Cjoda-time-2.10.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cclient\005Ctransport\005C6.4.3\005Ctransport-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Celasticsearch\005C6.4.3\005Celasticsearch-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Celasticsearch-core\005C6.4.3\005Celasticsearch-core-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Celasticsearch-secure-sm\005C6.4.3\005Celasticsearch-secure-sm-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Celasticsearch-x-content\005C6.4.3\005Celasticsearch-x-content-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdataformat\005Cjackson-dataformat-smile\005C2.9.7\005Cjackson-dataformat-smile-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdataformat\005Cjackson-dataformat-yaml\005C2.9.7\005Cjackson-dataformat-yaml-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdataformat\005Cjackson-dataformat-cbor\005C2.9.7\005Cjackson-dataformat-cbor-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-core\005C7.4.0\005Clucene-core-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-analyzers-common\005C7.4.0\005Clucene-analyzers-common-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-backward-codecs\005C7.4.0\005Clucene-backward-codecs-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-grouping\005C7.4.0\005Clucene-grouping-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-highlighter\005C7.4.0\005Clucene-highlighter-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-join\005C7.4.0\005Clucene-join-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-memory\005C7.4.0\005Clucene-memory-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-misc\005C7.4.0\005Clucene-misc-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-queries\005C7.4.0\005Clucene-queries-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-queryparser\005C7.4.0\005Clucene-queryparser-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-sandbox\005C7.4.0\005Clucene-sandbox-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-spatial\005C7.4.0\005Clucene-spatial-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-spatial-extras\005C7.4.0\005Clucene-spatial-extras-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-spatial3d\005C7.4.0\005Clucene-spatial3d-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-suggest\005C7.4.0\005Clucene-suggest-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Celasticsearch-cli\005C6.4.3\005Celasticsearch-cli-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Csf\005Cjopt-simple\005Cjopt-simple\005C5.0.2\005Cjopt-simple-5.0.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Ccarrotsearch\005Chppc\005C0.7.1\005Chppc-0.7.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Ctdunning\005Ct-digest\005C3.2\005Ct-digest-3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chdrhistogram\005CHdrHistogram\005C2.1.9\005CHdrHistogram-2.1.9.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cjna\005C4.5.1\005Cjna-4.5.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Creindex-client\005C6.4.3\005Creindex-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cclient\005Celasticsearch-rest-client\005C6.4.3\005Celasticsearch-rest-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpclient\005C4.5.6\005Chttpclient-4.5.6.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore\005C4.4.10\005Chttpcore-4.4.10.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpasyncclient\005C4.1.4\005Chttpasyncclient-4.1.4.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore-nio\005C4.4.10\005Chttpcore-nio-4.4.10.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.11\005Ccommons-codec-1.11.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Clang-mustache-client\005C6.4.3\005Clang-mustache-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cgithub\005Cspullara\005Cmustache\005Cjava\005Ccompiler\005C0.9.3\005Ccompiler-0.9.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Cpercolator-client\005C6.4.3\005Cpercolator-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Cparent-join-client\005C6.4.3\005Cparent-join-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Crank-eval-client\005C6.4.3\005Crank-eval-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-core\005C2.9.7\005Cjackson-core-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Ctransport-netty4-client\005C6.4.3\005Ctransport-netty4-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-codec-http\005C4.1.31.Final\005Cnetty-codec-http-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Csun\005Cjna\005Cjna\005C3.0.9\005Cjna-3.0.9.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Csourceforge\005Cnekohtml\005Cnekohtml\005C1.9.22\005Cnekohtml-1.9.22.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cxerces\005CxercesImpl\005C2.11.0\005CxercesImpl-2.11.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cxml-apis\005Cxml-apis\005C1.4.01\005Cxml-apis-1.4.01.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.12\005Cjunit-4.12.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-jasper\005C8.5.23\005Ctomcat-embed-jasper-8.5.23.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjdt\005Cecj\005C3.12.3\005Cecj-3.12.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cmysql\005Cmysql-connector-j\005C8.0.33\005Cmysql-connector-j-8.0.33.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cmail\005Cjavax.mail-api\005C1.6.2\005Cjavax.mail-api-1.6.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjakarta\005Cmail\005Cjakarta.mail-api\005C1.6.7\005Cjakarta.mail-api-1.6.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Csun\005Cmail\005Cjavax.mail\005C1.6.2\005Cjavax.mail-1.6.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cactivation\005Cactivation\005C1.1\005Cactivation-1.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccommons-lang\005Ccommons-lang\005C2.6\005Ccommons-lang-2.6.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Cshiro\005Cshiro-spring\005C1.3.2\005Cshiro-spring-1.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Cshiro\005Cshiro-core\005C1.3.2\005Cshiro-core-1.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccommons-beanutils\005Ccommons-beanutils\005C1.8.3\005Ccommons-beanutils-1.8.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Cshiro\005Cshiro-web\005C1.3.2\005Cshiro-web-1.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chsqldb\005Chsqldb\005C2.4.1\005Chsqldb-2.4.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter\005C5.10.1\005Cjunit-jupiter-5.10.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-api\005C5.3.2\005Cjunit-jupiter-api-5.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.0.0\005Capiguardian-api-1.0.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Copentest4j\005Copentest4j\005C1.1.1\005Copentest4j-1.1.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-commons\005C1.3.2\005Cjunit-platform-commons-1.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-params\005C5.3.2\005Cjunit-jupiter-params-5.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-engine\005C5.3.2\005Cjunit-jupiter-engine-5.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-engine\005C1.3.2\005Cjunit-platform-engine-1.3.2.jar;
+
+
+# Created at 2023-12-13T14:41:23.082
+Unexpected IOException: I,1,java.vm.vendor,JetBrains s.r.o.
+
+
+# Created at 2023-12-13T14:41:23.083
+Unexpected IOException: I,1,sun.arch.data.model,64
+
+
+# Created at 2023-12-13T14:41:23.083
+Unexpected IOException: I,1,user.variant,
+
+
+# Created at 2023-12-13T14:41:23.083
+Unexpected IOException: I,1,java.vendor.url,https://openjdk.java.net/
+
+
+# Created at 2023-12-13T14:41:23.083
+Unexpected IOException: I,1,user.timezone,Asia/Shanghai
+
+
+# Created at 2023-12-13T14:41:23.084
+Unexpected IOException: I,1,java.vm.specification.version,17
+
+
+# Created at 2023-12-13T14:41:23.084
+Unexpected IOException: I,1,os.name,Windows 10
+
+
+# Created at 2023-12-13T14:41:23.084
+Unexpected IOException: I,1,sun.java.launcher,SUN_STANDARD
+
+
+# Created at 2023-12-13T14:41:23.085
+Unexpected IOException: I,1,user.country,CN
+
+
+# Created at 2023-12-13T14:41:23.085
+Unexpected IOException: I,1,sun.boot.library.path,E:\005CProgramFiles\005CIntelliJ IDEA 2023.2.5\005Cjbr\005Cbin
+
+
+# Created at 2023-12-13T14:41:23.085
+Unexpected IOException: I,1,sun.java.command,C:\005CUsers\005CDELL\005CAppData\005CLocal\005CTemp\005Csurefire5533283803989637692\005Csurefirebooter11489742635887068097.jar C:\005CUsers\005CDELL\005CAppData\005CLocal\005CTemp\005Csurefire5533283803989637692 2023-12-13T14-41-22_109-jvmRun1 surefire10065497085444079536tmp surefire_08038069780267540754tmp
+
+
+# Created at 2023-12-13T14:41:23.085
+Unexpected IOException: I,1,jdk.debug,release
+
+
+# Created at 2023-12-13T14:41:23.087
+Unexpected IOException: I,1,surefire.test.class.path,C:\005CUsers\005CDELL\005CDesktop\005C\7F51\7EDC\5E94\7528\5F00\53D1\8BFE\7A0B\8BBE\8BA1 - \526F\672C\005Cspring-demo\005Ctarget\005Ctest-classes;C:\005CUsers\005CDELL\005CDesktop\005C\7F51\7EDC\5E94\7528\5F00\53D1\8BFE\7A0B\8BBE\8BA1 - \526F\672C\005Cspring-demo\005Ctarget\005Cclasses;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-web\005C2.1.1.RELEASE\005Cspring-boot-starter-web-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter\005C2.1.1.RELEASE\005Cspring-boot-starter-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-logging\005C2.1.1.RELEASE\005Cspring-boot-starter-logging-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-classic\005C1.2.3\005Clogback-classic-1.2.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-core\005C1.2.3\005Clogback-core-1.2.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-to-slf4j\005C2.11.1\005Clog4j-to-slf4j-2.11.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.11.1\005Clog4j-api-2.11.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cslf4j\005Cjul-to-slf4j\005C1.7.25\005Cjul-to-slf4j-1.7.25.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.23\005Csnakeyaml-1.23.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-json\005C2.1.1.RELEASE\005Cspring-boot-starter-json-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-databind\005C2.9.7\005Cjackson-databind-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-annotations\005C2.9.0\005Cjackson-annotations-2.9.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jdk8\005C2.9.7\005Cjackson-datatype-jdk8-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jsr310\005C2.9.7\005Cjackson-datatype-jsr310-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cmodule\005Cjackson-module-parameter-names\005C2.9.7\005Cjackson-module-parameter-names-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chibernate\005Cvalidator\005Chibernate-validator\005C6.0.13.Final\005Chibernate-validator-6.0.13.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cvalidation\005Cvalidation-api\005C2.0.1.Final\005Cvalidation-api-2.0.1.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjboss\005Clogging\005Cjboss-logging\005C3.3.2.Final\005Cjboss-logging-3.3.2.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cclassmate\005C1.4.0\005Cclassmate-1.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-web\005C5.1.3.RELEASE\005Cspring-web-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C5.1.3.RELEASE\005Cspring-beans-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-webmvc\005C5.1.3.RELEASE\005Cspring-webmvc-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C5.1.3.RELEASE\005Cspring-aop-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C5.1.3.RELEASE\005Cspring-context-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C5.1.3.RELEASE\005Cspring-expression-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-tomcat\005C2.1.1.RELEASE\005Cspring-boot-starter-tomcat-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cannotation\005Cjavax.annotation-api\005C1.3.2\005Cjavax.annotation-api-1.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-core\005C9.0.13\005Ctomcat-embed-core-9.0.13.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-el\005C9.0.13\005Ctomcat-embed-el-9.0.13.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-websocket\005C9.0.13\005Ctomcat-embed-websocket-9.0.13.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-devtools\005C2.1.1.RELEASE\005Cspring-boot-devtools-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot\005C2.1.1.RELEASE\005Cspring-boot-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-autoconfigure\005C2.1.1.RELEASE\005Cspring-boot-autoconfigure-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-data-jpa\005C2.1.1.RELEASE\005Cspring-boot-starter-data-jpa-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-aop\005C2.1.1.RELEASE\005Cspring-boot-starter-aop-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Caspectj\005Caspectjweaver\005C1.9.2\005Caspectjweaver-1.9.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-jdbc\005C2.1.1.RELEASE\005Cspring-boot-starter-jdbc-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Czaxxer\005CHikariCP\005C3.2.0\005CHikariCP-3.2.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jdbc\005C5.1.3.RELEASE\005Cspring-jdbc-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Ctransaction\005Cjavax.transaction-api\005C1.3\005Cjavax.transaction-api-1.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cxml\005Cbind\005Cjaxb-api\005C2.3.1\005Cjaxb-api-2.3.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cactivation\005Cjavax.activation-api\005C1.2.0\005Cjavax.activation-api-1.2.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chibernate\005Chibernate-core\005C5.3.7.Final\005Chibernate-core-5.3.7.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cpersistence\005Cjavax.persistence-api\005C2.2\005Cjavax.persistence-api-2.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjavassist\005Cjavassist\005C3.23.1-GA\005Cjavassist-3.23.1-GA.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.9.5\005Cbyte-buddy-1.9.5.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cantlr\005Cantlr\005C2.7.7\005Cantlr-2.7.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjboss\005Cjandex\005C2.0.5.Final\005Cjandex-2.0.5.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cdom4j\005Cdom4j\005C2.1.1\005Cdom4j-2.1.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chibernate\005Ccommon\005Chibernate-commons-annotations\005C5.0.4.Final\005Chibernate-commons-annotations-5.0.4.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-jpa\005C2.1.3.RELEASE\005Cspring-data-jpa-2.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-commons\005C2.1.3.RELEASE\005Cspring-data-commons-2.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-orm\005C5.1.3.RELEASE\005Cspring-orm-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-tx\005C5.1.3.RELEASE\005Cspring-tx-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.25\005Cslf4j-api-1.7.25.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aspects\005C5.1.3.RELEASE\005Cspring-aspects-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-data-redis\005C2.1.1.RELEASE\005Cspring-boot-starter-data-redis-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-redis\005C2.1.3.RELEASE\005Cspring-data-redis-2.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-keyvalue\005C2.1.3.RELEASE\005Cspring-data-keyvalue-2.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-oxm\005C5.1.3.RELEASE\005Cspring-oxm-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context-support\005C5.1.3.RELEASE\005Cspring-context-support-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Clettuce\005Clettuce-core\005C5.1.3.RELEASE\005Clettuce-core-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cprojectreactor\005Creactor-core\005C3.2.3.RELEASE\005Creactor-core-3.2.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Creactivestreams\005Creactive-streams\005C1.0.2\005Creactive-streams-1.0.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-common\005C4.1.31.Final\005Cnetty-common-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport\005C4.1.31.Final\005Cnetty-transport-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-buffer\005C4.1.31.Final\005Cnetty-buffer-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-resolver\005C4.1.31.Final\005Cnetty-resolver-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-handler\005C4.1.31.Final\005Cnetty-handler-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-codec\005C4.1.31.Final\005Cnetty-codec-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-test\005C2.1.1.RELEASE\005Cspring-boot-starter-test-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test\005C2.1.1.RELEASE\005Cspring-boot-test-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test-autoconfigure\005C2.1.1.RELEASE\005Cspring-boot-test-autoconfigure-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cjayway\005Cjsonpath\005Cjson-path\005C2.4.0\005Cjson-path-2.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Cminidev\005Cjson-smart\005C2.3\005Cjson-smart-2.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Cminidev\005Caccessors-smart\005C1.2\005Caccessors-smart-1.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C5.0.4\005Casm-5.0.4.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cassertj\005Cassertj-core\005C3.11.1\005Cassertj-core-3.11.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C2.23.4\005Cmockito-core-2.23.4.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy-agent\005C1.9.5\005Cbyte-buddy-agent-1.9.5.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C2.6\005Cobjenesis-2.6.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-library\005C1.3\005Chamcrest-library-1.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cskyscreamer\005Cjsonassert\005C1.5.0\005Cjsonassert-1.5.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cvaadin\005Cexternal\005Cgoogle\005Candroid-json\005C0.0.20131108.vaadin1\005Candroid-json-0.0.20131108.vaadin1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C5.1.3.RELEASE\005Cspring-core-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jcl\005C5.1.3.RELEASE\005Cspring-jcl-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-test\005C5.1.3.RELEASE\005Cspring-test-5.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cxmlunit\005Cxmlunit-core\005C2.6.2\005Cxmlunit-core-2.6.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-thymeleaf\005C2.1.1.RELEASE\005Cspring-boot-starter-thymeleaf-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cthymeleaf\005Cthymeleaf-spring5\005C3.0.11.RELEASE\005Cthymeleaf-spring5-3.0.11.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cthymeleaf\005Cthymeleaf\005C3.0.11.RELEASE\005Cthymeleaf-3.0.11.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cattoparser\005Cattoparser\005C2.0.5.RELEASE\005Cattoparser-2.0.5.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cunbescape\005Cunbescape\005C1.1.6.RELEASE\005Cunbescape-1.1.6.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cthymeleaf\005Cextras\005Cthymeleaf-extras-java8time\005C3.0.2.RELEASE\005Cthymeleaf-extras-java8time-3.0.2.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-data-elasticsearch\005C2.1.1.RELEASE\005Cspring-boot-starter-data-elasticsearch-2.1.1.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-elasticsearch\005C3.1.3.RELEASE\005Cspring-data-elasticsearch-3.1.3.RELEASE.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjoda-time\005Cjoda-time\005C2.10.1\005Cjoda-time-2.10.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cclient\005Ctransport\005C6.4.3\005Ctransport-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Celasticsearch\005C6.4.3\005Celasticsearch-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Celasticsearch-core\005C6.4.3\005Celasticsearch-core-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Celasticsearch-secure-sm\005C6.4.3\005Celasticsearch-secure-sm-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Celasticsearch-x-content\005C6.4.3\005Celasticsearch-x-content-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdataformat\005Cjackson-dataformat-smile\005C2.9.7\005Cjackson-dataformat-smile-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdataformat\005Cjackson-dataformat-yaml\005C2.9.7\005Cjackson-dataformat-yaml-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdataformat\005Cjackson-dataformat-cbor\005C2.9.7\005Cjackson-dataformat-cbor-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-core\005C7.4.0\005Clucene-core-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-analyzers-common\005C7.4.0\005Clucene-analyzers-common-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-backward-codecs\005C7.4.0\005Clucene-backward-codecs-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-grouping\005C7.4.0\005Clucene-grouping-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-highlighter\005C7.4.0\005Clucene-highlighter-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-join\005C7.4.0\005Clucene-join-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-memory\005C7.4.0\005Clucene-memory-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-misc\005C7.4.0\005Clucene-misc-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-queries\005C7.4.0\005Clucene-queries-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-queryparser\005C7.4.0\005Clucene-queryparser-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-sandbox\005C7.4.0\005Clucene-sandbox-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-spatial\005C7.4.0\005Clucene-spatial-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-spatial-extras\005C7.4.0\005Clucene-spatial-extras-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-spatial3d\005C7.4.0\005Clucene-spatial3d-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Clucene\005Clucene-suggest\005C7.4.0\005Clucene-suggest-7.4.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Celasticsearch-cli\005C6.4.3\005Celasticsearch-cli-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Csf\005Cjopt-simple\005Cjopt-simple\005C5.0.2\005Cjopt-simple-5.0.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Ccarrotsearch\005Chppc\005C0.7.1\005Chppc-0.7.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Ctdunning\005Ct-digest\005C3.2\005Ct-digest-3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chdrhistogram\005CHdrHistogram\005C2.1.9\005CHdrHistogram-2.1.9.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cjna\005C4.5.1\005Cjna-4.5.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Creindex-client\005C6.4.3\005Creindex-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cclient\005Celasticsearch-rest-client\005C6.4.3\005Celasticsearch-rest-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpclient\005C4.5.6\005Chttpclient-4.5.6.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore\005C4.4.10\005Chttpcore-4.4.10.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpasyncclient\005C4.1.4\005Chttpasyncclient-4.1.4.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore-nio\005C4.4.10\005Chttpcore-nio-4.4.10.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.11\005Ccommons-codec-1.11.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Clang-mustache-client\005C6.4.3\005Clang-mustache-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cgithub\005Cspullara\005Cmustache\005Cjava\005Ccompiler\005C0.9.3\005Ccompiler-0.9.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Cpercolator-client\005C6.4.3\005Cpercolator-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Cparent-join-client\005C6.4.3\005Cparent-join-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Crank-eval-client\005C6.4.3\005Crank-eval-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-core\005C2.9.7\005Cjackson-core-2.9.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Celasticsearch\005Cplugin\005Ctransport-netty4-client\005C6.4.3\005Ctransport-netty4-client-6.4.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-codec-http\005C4.1.31.Final\005Cnetty-codec-http-4.1.31.Final.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Csun\005Cjna\005Cjna\005C3.0.9\005Cjna-3.0.9.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cnet\005Csourceforge\005Cnekohtml\005Cnekohtml\005C1.9.22\005Cnekohtml-1.9.22.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cxerces\005CxercesImpl\005C2.11.0\005CxercesImpl-2.11.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cxml-apis\005Cxml-apis\005C1.4.01\005Cxml-apis-1.4.01.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.12\005Cjunit-4.12.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-jasper\005C8.5.23\005Ctomcat-embed-jasper-8.5.23.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjdt\005Cecj\005C3.12.3\005Cecj-3.12.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Cmysql\005Cmysql-connector-j\005C8.0.33\005Cmysql-connector-j-8.0.33.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cmail\005Cjavax.mail-api\005C1.6.2\005Cjavax.mail-api-1.6.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjakarta\005Cmail\005Cjakarta.mail-api\005C1.6.7\005Cjakarta.mail-api-1.6.7.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccom\005Csun\005Cmail\005Cjavax.mail\005C1.6.2\005Cjavax.mail-1.6.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Cjavax\005Cactivation\005Cactivation\005C1.1\005Cactivation-1.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccommons-lang\005Ccommons-lang\005C2.6\005Ccommons-lang-2.6.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Cshiro\005Cshiro-spring\005C1.3.2\005Cshiro-spring-1.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Cshiro\005Cshiro-core\005C1.3.2\005Cshiro-core-1.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Ccommons-beanutils\005Ccommons-beanutils\005C1.8.3\005Ccommons-beanutils-1.8.3.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capache\005Cshiro\005Cshiro-web\005C1.3.2\005Cshiro-web-1.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Chsqldb\005Chsqldb\005C2.4.1\005Chsqldb-2.4.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter\005C5.10.1\005Cjunit-jupiter-5.10.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-api\005C5.3.2\005Cjunit-jupiter-api-5.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.0.0\005Capiguardian-api-1.0.0.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Copentest4j\005Copentest4j\005C1.1.1\005Copentest4j-1.1.1.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-commons\005C1.3.2\005Cjunit-platform-commons-1.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-params\005C5.3.2\005Cjunit-jupiter-params-5.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-engine\005C5.3.2\005Cjunit-jupiter-engine-5.3.2.jar;C:\005CUsers\005CDELL\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-engine\005C1.3.2\005Cjunit-platform-engine-1.3.2.jar;
+
+
+# Created at 2023-12-13T14:41:23.088
+Unexpected IOException: I,1,sun.cpu.endian,little
+
+
+# Created at 2023-12-13T14:41:23.088
+Unexpected IOException: I,1,user.home,C:\005CUsers\005CDELL
+
+
+# Created at 2023-12-13T14:41:23.088
+Unexpected IOException: I,1,user.language,zh
+
+
+# Created at 2023-12-13T14:41:23.088
+Unexpected IOException: I,1,java.specification.vendor,Oracle Corporation
+
+
+# Created at 2023-12-13T14:41:23.089
+Unexpected IOException: I,1,java.version.date,2023-10-17
+
+
+# Created at 2023-12-13T14:41:23.089
+Unexpected IOException: I,1,java.home,E:\005CProgramFiles\005CIntelliJ IDEA 2023.2.5\005Cjbr
+
+
+# Created at 2023-12-13T14:41:23.089
+Unexpected IOException: I,1,file.separator,\005C
+
+
+# Created at 2023-12-13T14:41:23.089
+Unexpected IOException: I,1,basedir,C:\005CUsers\005CDELL\005CDesktop\005C\7F51\7EDC\5E94\7528\5F00\53D1\8BFE\7A0B\8BBE\8BA1 - \526F\672C\005Cspring-demo
+
+
+# Created at 2023-12-13T14:41:23.090
+Unexpected IOException: I,1,java.vm.compressedOopsMode,Zero based
+
+
+# Created at 2023-12-13T14:41:23.090
+Unexpected IOException: I,1,line.separator,\000D\000A
+
+
+# Created at 2023-12-13T14:41:23.090
+Unexpected IOException: I,1,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created at 2023-12-13T14:41:23.090
+Unexpected IOException: I,1,java.specification.name,Java Platform API Specification
+
+
+# Created at 2023-12-13T14:41:23.091
+Unexpected IOException: I,1,jbr.virtualization.information,No virtualization detected
+
+
+# Created at 2023-12-13T14:41:23.091
+Unexpected IOException: I,1,surefire.real.class.path,C:\005CUsers\005CDELL\005CAppData\005CLocal\005CTemp\005Csurefire5533283803989637692\005Csurefirebooter11489742635887068097.jar
+
+
+# Created at 2023-12-13T14:41:23.091
+Unexpected IOException: I,1,user.script,
+
+
+# Created at 2023-12-13T14:41:23.091
+Unexpected IOException: I,1,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created at 2023-12-13T14:41:23.092
+Unexpected IOException: I,1,java.runtime.version,17.0.9+7-b1000.46
+
+
+# Created at 2023-12-13T14:41:23.092
+Unexpected IOException: I,1,user.name,DELL
+
+
+# Created at 2023-12-13T14:41:23.092
+Unexpected IOException: I,1,path.separator,;
+
+
+# Created at 2023-12-13T14:41:23.092
+Unexpected IOException: I,1,os.version,10.0
+
+
+# Created at 2023-12-13T14:41:23.093
+Unexpected IOException: I,1,java.runtime.name,OpenJDK Runtime Environment
+
+
+# Created at 2023-12-13T14:41:23.093
+Unexpected IOException: I,1,file.encoding,GBK
+
+
+# Created at 2023-12-13T14:41:23.093
+Unexpected IOException: I,1,java.vm.name,OpenJDK 64-Bit Server VM
+
+
+# Created at 2023-12-13T14:41:23.093
+Unexpected IOException: I,1,java.vendor.version,JBR-17.0.9+7-1000.46-jcef
+
+
+# Created at 2023-12-13T14:41:23.094
+Unexpected IOException: I,1,localRepository,C:\005CUsers\005CDELL\005C.m2\005Crepository
+
+
+# Created at 2023-12-13T14:41:23.094
+Unexpected IOException: I,1,java.vendor.url.bug,https://bugreport.java.com/bugreport/
+
+
+# Created at 2023-12-13T14:41:23.095
+Unexpected IOException: I,1,java.io.tmpdir,C:\005CUsers\005CDELL\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created at 2023-12-13T14:41:23.095
+Unexpected IOException: I,1,idea.version,2023.2.5
+
+
+# Created at 2023-12-13T14:41:23.095
+Unexpected IOException: I,1,java.version,17.0.9
+
+
+# Created at 2023-12-13T14:41:23.095
+Unexpected IOException: I,1,user.dir,C:\005CUsers\005CDELL\005CDesktop\005C\7F51\7EDC\5E94\7528\5F00\53D1\8BFE\7A0B\8BBE\8BA1 - \526F\672C\005Cspring-demo
+
+
+# Created at 2023-12-13T14:41:23.095
+Unexpected IOException: I,1,os.arch,amd64
+
+
+# Created at 2023-12-13T14:41:23.096
+Unexpected IOException: I,1,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created at 2023-12-13T14:41:23.096
+Unexpected IOException: I,1,sun.os.patch.level,
+
+
+# Created at 2023-12-13T14:41:23.096
+Unexpected IOException: I,1,native.encoding,GBK
+
+
+# Created at 2023-12-13T14:41:23.096
+Unexpected IOException: I,1,java.library.path,E:\005CProgramFiles\005CIntelliJ IDEA 2023.2.5\005Cjbr\005Cbin;C:\005CWindows\005CSun\005CJava\005Cbin;C:\005CWindows\005Csystem32;C:\005CWindows;C:\005CProgram Files (x86)\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005CProgram Files\005CNVIDIA GPU Computing Toolkit\005CCUDA\005Cv12.3\005Cbin;C:\005CProgram Files\005CNVIDIA GPU Computing Toolkit\005CCUDA\005Cv12.3\005Clibnvvp;C:\005CWindows\005Csystem32;C:\005CWindows;C:\005CWindows\005CSystem32\005CWbem;C:\005CWindows\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWindows\005CSystem32\005COpenSSH\005C;C:\005CProgram Files (x86)\005CNVIDIA Corporation\005CPhysX\005CCommon;C:\005CProgram Files\005CNVIDIA Corporation\005CNVIDIA NvDLISR;C:\005CProgram Files\005Cdotnet\005C;E:\005CProgramFiles\005Canaconda3;E:\005CProgramFiles\005Canaconda3\005CScripts;E:\005CProgramFiles\005Canaconda3\005CLibrary\005Cbin;E:\005CProgramFiles\005Canaconda3\005Cmingw-w64\005Cbin;C:\005CProgram Files\005CNVIDIA Corporation\005CNsight Compute 2023.3.1\005C;E:\005CProgramFiles\005CGit\005Ccmd;C:\005CProgram Files\005CNVIDIA GPU Computing Toolkit\005CCUDA\005Cv12.3\005Clib;C:\005CProgram Files\005CNVIDIA GPU Computing Toolkit\005CCUDA\005Cv12.3\005Cinclude;E:\005CProgramFiles\005Cnodejs\005C;C:\005CProgram Files\005CMySQL\005CMySQL Server 8.2\005Cbin;E:\005CProgramFiles\005CJava\005Cjdk\005Cbin;C:\005CUsers\005CDELL\005CDesktop\005Capache-tomcat-9.0.83\005Cbin\005C;C:\005CUsers\005CDELL\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;;E:\005CProgramFiles\005CJetBrains\005CPyCharm 2023.2.5\005Cbin;;E:\005CProgramFiles\005CMicrosoft VS Code\005Cbin;E:\005CProgramFiles\005CIntelliJ IDEA 2023.2.5\005Cbin;;C:\005CUsers\005CDELL\005CAppData\005CRoaming\005Cnpm;.
+
+
+# Created at 2023-12-13T14:41:23.097
+Unexpected IOException: I,1,java.vm.info,mixed mode
+
+
+# Created at 2023-12-13T14:41:23.097
+Unexpected IOException: I,1,java.vendor,JetBrains s.r.o.
+
+
+# Created at 2023-12-13T14:41:23.097
+Unexpected IOException: I,1,java.vm.version,17.0.9+7-b1000.46
+
+
+# Created at 2023-12-13T14:41:23.097
+Unexpected IOException: I,1,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created at 2023-12-13T14:41:23.098
+Unexpected IOException: I,1,java.class.version,61.0
+
+
+# Created at 2023-12-13T14:41:23.148
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.springdemo.SpringDemoApplicationTests,null,null,null
+
+
+# Created at 2023-12-13T14:41:23.206
+Unexpected IOException with stream: 14:41:23.205 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+
+
+# Created at 2023-12-13T14:41:23.216
+Unexpected IOException with stream: 14:41:23.216 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+
+
+# Created at 2023-12-13T14:41:23.227
+Unexpected IOException with stream: 14:41:23.227 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.springdemo.SpringDemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+
+
+# Created at 2023-12-13T14:41:23.234
+Unexpected IOException with stream: 14:41:23.233 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.springdemo.SpringDemoApplicationTests], using SpringBootContextLoader
+
+
+# Created at 2023-12-13T14:41:23.236
+Unexpected IOException with stream: 14:41:23.236 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.springdemo.SpringDemoApplicationTests]: class path resource [com/example/springdemo/SpringDemoApplicationTests-context.xml] does not exist
+
+
+# Created at 2023-12-13T14:41:23.237
+Unexpected IOException with stream: 14:41:23.236 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.springdemo.SpringDemoApplicationTests]: class path resource [com/example/springdemo/SpringDemoApplicationTestsContext.groovy] does not exist
+
+
+# Created at 2023-12-13T14:41:23.237
+Unexpected IOException with stream: 14:41:23.237 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.springdemo.SpringDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2023-12-13T14:41:23.238
+Unexpected IOException with stream: 14:41:23.237 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springdemo.SpringDemoApplicationTests]: SpringDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2023-12-13T14:41:23.260
+Unexpected IOException with stream: 14:41:23.260 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.springdemo.SpringDemoApplicationTests]
+
+
+# Created at 2023-12-13T14:41:23.297
+Unexpected IOException with stream: 14:41:23.297 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\DELL\Desktop\网络应用开发课程设计 - 副本\spring-demo\target\classes\com\example\springdemo\SpringDemoApplication.class]
+
+
+# Created at 2023-12-13T14:41:23.298
+Unexpected IOException with stream: 14:41:23.298 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springdemo.SpringDemoApplication for test class com.example.springdemo.SpringDemoApplicationTests
+
+
+# Created at 2023-12-13T14:41:23.370
+Unexpected IOException with stream: 14:41:23.370 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.springdemo.SpringDemoApplicationTests]: using defaults.
+
+
+# Created at 2023-12-13T14:41:23.371
+Unexpected IOException with stream: 14:41:23.370 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+# Created at 2023-12-13T14:41:23.380
+Unexpected IOException with stream: 14:41:23.380 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ae67cad, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2f6e28bc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7c098bb3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@31e4bb20, org.springframework.test.context.support.DirtiesContextTestExecutionListener@18cebaa5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@463b4ac8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@765f05af, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62f68dff, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@f001896, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@13f17eb4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1d0d6318, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4bc28c33]
+
+
+# Created at 2023-12-13T14:41:23.383
+Unexpected IOException with stream: 14:41:23.383 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@31aa3ca5 testClass = SpringDemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@45905bff testClass = SpringDemoApplicationTests, locations = '{}', classes = '{class com.example.springdemo.SpringDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@407a7f2a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3fa247d1, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7fc4780b], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+
+# Created at 2023-12-13T14:41:23.397
+Unexpected IOException with stream: 14:41:23.397 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+
+# Created at 2023-12-13T14:41:23.546
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-13T14:41:23.547
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2023-12-13T14:41:23.548
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2023-12-13T14:41:23.548
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2023-12-13T14:41:23.548
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2023-12-13T14:41:23.550
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2023-12-13T14:41:23.550
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2023-12-13T14:41:23.551
+Unexpected IOException with stream:  :: Spring Boot ::        (v2.1.1.RELEASE)
+
+
+# Created at 2023-12-13T14:41:23.551
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-13T14:41:23.615
+Unexpected IOException with stream: 2023-12-13 14:41:23.614  INFO 22692 --- [           main] c.e.s.SpringDemoApplicationTests         : Starting SpringDemoApplicationTests on DESKTOP-KMQL5JA with PID 22692 (started by DELL in C:\Users\DELL\Desktop\网络应用开发课程设计 - 副本\spring-demo)
+
+
+# Created at 2023-12-13T14:41:23.616
+Unexpected IOException with stream: 2023-12-13 14:41:23.616  INFO 22692 --- [           main] c.e.s.SpringDemoApplicationTests         : No active profile set, falling back to default profiles: default
+
+
+# Created at 2023-12-13T14:41:24.661
+Unexpected IOException with stream: 2023-12-13 14:41:24.660  INFO 22692 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+
+
+# Created at 2023-12-13T14:41:24.664
+Unexpected IOException with stream: 2023-12-13 14:41:24.662  INFO 22692 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+
+
+# Created at 2023-12-13T14:41:24.720
+Unexpected IOException with stream: 2023-12-13 14:41:24.719  INFO 22692 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.springdemo.dao.CartDAO.
+
+
+# Created at 2023-12-13T14:41:24.724
+Unexpected IOException with stream: 2023-12-13 14:41:24.723  INFO 22692 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.springdemo.dao.LogDAO.
+
+
+# Created at 2023-12-13T14:41:24.728
+Unexpected IOException with stream: 2023-12-13 14:41:24.727  INFO 22692 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.springdemo.dao.ProductDAO.
+
+
+# Created at 2023-12-13T14:41:24.732
+Unexpected IOException with stream: 2023-12-13 14:41:24.732  INFO 22692 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.springdemo.dao.UserDAO.
+
+
+# Created at 2023-12-13T14:41:24.734
+Unexpected IOException with stream: 2023-12-13 14:41:24.734  INFO 22692 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 0 repository interfaces.
+
+
+# Created at 2023-12-13T14:41:24.761
+Unexpected IOException with stream: 2023-12-13 14:41:24.760  INFO 22692 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+
+
+# Created at 2023-12-13T14:41:24.763
+Unexpected IOException with stream: 2023-12-13 14:41:24.763  INFO 22692 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+
+
+# Created at 2023-12-13T14:41:24.910
+Unexpected IOException with stream: 2023-12-13 14:41:24.908  INFO 22692 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139ms. Found 4 repository interfaces.
+
+
+# Created at 2023-12-13T14:41:24.928
+Unexpected IOException with stream: 2023-12-13 14:41:24.927  INFO 22692 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+
+
+# Created at 2023-12-13T14:41:24.930
+Unexpected IOException with stream: 2023-12-13 14:41:24.929  INFO 22692 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+
+
+# Created at 2023-12-13T14:41:24.946
+Unexpected IOException with stream: 2023-12-13 14:41:24.945  INFO 22692 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springdemo.dao.CartDAO.
+
+
+# Created at 2023-12-13T14:41:24.947
+Unexpected IOException with stream: 2023-12-13 14:41:24.946  INFO 22692 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springdemo.dao.LogDAO.
+
+
+# Created at 2023-12-13T14:41:24.947
+Unexpected IOException with stream: 2023-12-13 14:41:24.947  INFO 22692 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springdemo.dao.ProductDAO.
+
+
+# Created at 2023-12-13T14:41:24.948
+Unexpected IOException with stream: 2023-12-13 14:41:24.948  INFO 22692 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springdemo.dao.UserDAO.
+
+
+# Created at 2023-12-13T14:41:24.949
+Unexpected IOException with stream: 2023-12-13 14:41:24.948  INFO 22692 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+
+
+# Created at 2023-12-13T14:41:25.276
+Unexpected IOException with stream: 2023-12-13 14:41:25.275  INFO 22692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$26837c4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+
+# Created at 2023-12-13T14:41:25.454
+Unexpected IOException with stream: 2023-12-13 14:41:25.453  INFO 22692 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2023-12-13T14:41:25.797
+Unexpected IOException with stream: 2023-12-13 14:41:25.796  INFO 22692 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2023-12-13T14:41:25.860
+Unexpected IOException with stream: 2023-12-13 14:41:25.860  INFO 22692 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+
+# Created at 2023-12-13T14:41:25.907
+Unexpected IOException with stream: 2023-12-13 14:41:25.906  INFO 22692 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+
+
+# Created at 2023-12-13T14:41:25.908
+Unexpected IOException with stream: 2023-12-13 14:41:25.908  INFO 22692 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+
+
+# Created at 2023-12-13T14:41:26.040
+Unexpected IOException with stream: 2023-12-13 14:41:26.040  INFO 22692 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+
+# Created at 2023-12-13T14:41:26.143
+Unexpected IOException with stream: 2023-12-13 14:41:26.143  INFO 22692 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+
+
+# Created at 2023-12-13T14:41:26.616
+Unexpected IOException with stream: 2023-12-13 14:41:26.615  INFO 22692 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2023-12-13T14:41:27.695
+Unexpected IOException with stream: 2023-12-13 14:41:27.695  INFO 22692 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2023-12-13T14:41:27.742
+Unexpected IOException with stream: 2023-12-13 14:41:27.742  WARN 22692 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2023-12-13T14:41:27.844
+Unexpected IOException with stream: 2023-12-13 14:41:27.844  WARN 22692 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+
+
+# Created at 2023-12-13T14:41:27.897
+Unexpected IOException with stream: 2023-12-13 14:41:27.897  INFO 22692 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+
+
+# Created at 2023-12-13T14:41:28.736
+Unexpected IOException with stream: 2023-12-13 14:41:28.735  INFO 22692 --- [           main] c.e.s.SpringDemoApplicationTests         : Started SpringDemoApplicationTests in 5.33 seconds (JVM running for 6.412)
+
+
+# Created at 2023-12-13T14:41:28.767
+Unexpected IOException: 5,1,com.example.springdemo.SpringDemoApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-12-13T14:41:28.899
+Unexpected IOException: 6,1,com.example.springdemo.SpringDemoApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-12-13T14:41:28.901
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.springdemo.SpringDemoApplicationTests,null,null,null
+
+
