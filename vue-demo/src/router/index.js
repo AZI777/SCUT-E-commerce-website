@@ -54,6 +54,12 @@ const routes = [
         path: '/login',
         name: 'Login',
         component: Login
+    },
+    {
+        path: '/',
+        name: 'root',
+        redirect: '/login',
+        // component: Login,
     }
 ];
 
