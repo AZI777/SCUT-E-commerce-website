@@ -1,6 +1,9 @@
 <template>
+  <!-- 商品列表容器 -->
   <div class="product-container">
+    <!-- 循环遍历商品数组，渲染每个商品项 -->
     <div v-for="product in products" :key="product.id" class="product-item">
+      <!-- 引入 ProductsFrontend 组件，传递商品信息作为 props -->
       <ProductsFrontend
           :name="product.name"
           :price="product.price"
@@ -14,19 +17,19 @@
 </template>
 
 <script>
-import ProductsFrontend from "@/components/market/ProductsFrontend.vue";
+import ProductsFrontend from "@/components/market/ProductsFrontend.vue"; // 导入前端商品组件
 import {onMounted, ref, watch} from "vue";
 import axios from "axios";
 
 export default {
-  name: 'ProductListFrontend',
+  name: 'ProductListFrontend', // 组件名称
   components: {
-    ProductsFrontend,
-
+    ProductsFrontend, // 注册前端商品组件
   },
   setup() {
-    const products = ref([]);
+    const products = ref([]); // 商品数组
 
+    // 加载商品信息
     const loadProduct = () => {
       axios
           .get('/products')
@@ -37,26 +40,27 @@ export default {
           });
     };
 
-    // 在组合式 API 中使用 onMounted
+    // 在组件挂载时加载商品信息
     onMounted(() => {
       loadProduct();
     });
 
-    watch(products, () => loadProduct())
+    // 监听商品数组的变化，发生变化时重新加载商品信息
+    watch(products, () => loadProduct());
 
     return {
       products,
-      loadProduct
+      loadProduct,
     };
   }
 };
 </script>
 
 <style>
+/* 样式部分 */
 .product-container {
   display: flex;
   flex-wrap: wrap;
-//justify-content: space-between;
 }
 
 .product-item {

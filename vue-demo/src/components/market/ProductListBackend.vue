@@ -1,6 +1,9 @@
 <template>
+  <!-- 商品列表容器 -->
   <div class="product-container">
+    <!-- 循环遍历商品数组，渲染每个商品项 -->
     <div v-for="product in products" :key="product.id" class="product-item">
+      <!-- 引入 ProductsBackend 组件，传递商品信息作为 props -->
       <ProductsBackend
           :name="product.name"
           :price="product.price"
@@ -10,35 +13,41 @@
           :id="product.id"
       ></ProductsBackend>
     </div>
+
+    <!-- 上传商品、查看日志和查看记录组件 -->
     <div>
+      <!-- 上传商品组件 -->
       <UploadForm></UploadForm>
+
+      <!-- 查看日志组件 -->
       <log></log>
+
+      <!-- 查看记录组件 -->
       <Record></Record>
     </div>
   </div>
 </template>
 
 <script>
-import ProductsBackend from '@/components/market/ProductsBackend.vue';
-import UploadForm from "@/components/market/UploadForm.vue";
-import Log from "@/components/market/Log.vue"
+import ProductsBackend from '@/components/market/ProductsBackend.vue'; // 导入商品组件
+import UploadForm from "@/components/market/UploadForm.vue"; // 导入上传商品组件
+import Log from "@/components/market/Log.vue"; // 导入查看日志组件
 import {onMounted, ref, watch} from "vue";
 import axios from "axios";
-import Record from "@/components/market/Record.vue";
+import Record from "@/components/market/Record.vue"; // 导入查看记录组件
 
 export default {
-  name: 'ProductListBackend',
+  name: 'ProductListBackend', // 组件名称
   components: {
     Record,
     Log,
     ProductsBackend,
     UploadForm,
-
-
   },
   setup() {
-    const products = ref([]);
+    const products = ref([]); // 商品数组
 
+    // 加载商品信息
     const loadProduct = () => {
       axios
           .get('/products')
@@ -49,22 +58,24 @@ export default {
           });
     };
 
-    // 在组合式 API 中使用 onMounted
+    // 在组件挂载时加载商品信息
     onMounted(() => {
       loadProduct();
     });
 
-    watch(products, () => loadProduct())
+    // 监听商品数组的变化，发生变化时重新加载商品信息
+    watch(products, () => loadProduct());
 
     return {
       products,
-      loadProduct
+      loadProduct,
     };
   }
 };
 </script>
 
 <style>
+/* 样式部分 */
 .product-container {
   display: flex;
   flex-wrap: wrap;

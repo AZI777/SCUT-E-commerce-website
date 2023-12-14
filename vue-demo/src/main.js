@@ -5,10 +5,10 @@ import ElementPlus from 'element-plus';
 import store from './store'
 import 'element-plus/dist/index.css';
 
-// 设置反向代理，前端请求默认发送到 http://localhost:8443/api
-import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:8443/api';
+import axios from 'axios';
+//前端请求发送到后端端口
+axios.defaults.baseURL = 'http://8.134.12.35:8443/api';
 
 const app = createApp(App);
 app.config.productionTip = false;
